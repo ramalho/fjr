@@ -51,7 +51,7 @@ def measure():
             dt = abs(pin1_dark_t - pin0_dark_t)  # milliseconds
             v = int(speed(dt))
             if 0 < v < 300:  # avoid invalid readings
-                display.scroll('{}k/h'.format(v), delay=SCROLL_DELAY)
+                display.scroll('{}km/h'.format(v), delay=SCROLL_DELAY)
             else:
                 wait_until_ready()
                 sleep(1000)  # wait for train to pass
