@@ -1,10 +1,15 @@
 from microbit import *
+from micropython import const
 
+DARK_THRESHOLD = const(400)  # ADC range 0:1024
+SCROLL_DELAY = const(90)  # ms
+SENSOR_DISTANCE = const(67 / 1000)  # meters
+H0_SCALE = const(87)  # 1:87
 
-DARK_THRESHOLD = 400  # ADC range 0:1024
-SCROLL_DELAY = 90  # ms
-SENSOR_DISTANCE = 67 / 1000  # meters
-H0_SCALE = 87  # 1:87
+READY_SYMBOL = Image.YES
+LEFT_ARROW = Image.ARROW_W
+RIGHT_ARROW = Image.ARROW_E
+
 
 def dark(pin):
     return pin.read_analog() <= DARK_THRESHOLD
@@ -41,11 +46,13 @@ def measure():
 
         if pin0_dark_t == 0 and dark(pin0):
             pin0_dark_t = running_time()
-            display.show('>')
+            if pin1_dark_t == 0:
+                display.show(RIGHT_ARROW)
 
         if pin1_dark_t == 0 and dark(pin1):
             pin1_dark_t = running_time()
-            display.show('<')
+            if pin0_dark_t == 0:
+                display.show(LEFT_ARROW)
 
         if pin0_dark_t and pin1_dark_t:
             dt = abs(pin1_dark_t - pin0_dark_t)  # milliseconds
@@ -58,15 +65,18 @@ def measure():
             # Reset for next events
             pin0_dark_t = 0
             pin1_dark_t = 0
-            display.show('#')
+            display.show(READY_SYMBOL)
+
+        if pin0_dark_t or pin0_dark_t:
+            continue  # ongoing measurement, skip delay
 
         sleep(10)  # delay to save battery
 
 
 def main():
-    display.scroll('FJR', delay=SCROLL_DELAY)
+    display.scroll('FJR')
     wait_until_ready()
-    display.show('#')
+    display.show(READY_SYMBOL)
     measure()
 
 main()
