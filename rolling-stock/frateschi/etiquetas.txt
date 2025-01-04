@@ -1,0 +1,106 @@
+code	descr
+2498	1ª classe antigo EFS
+2481	1ª classe aço-C RFFSA BHTE
+2441	1ª classe CPEF
+2499	2ª classe antigo EFS
+2499	2ª classe antigo EFS
+2482	2ª classe aço-C RFFSA BHTE
+2482	2ª classe aço-C RFFSA BHTE
+2482	2ª classe aço-C RFFSA BHTE
+2482	2ª classe aço-C RFFSA BHTE
+2442	2ª classe CPEF
+2519	2ª classe FEPASA "Ave Maria"
+2519	2ª classe FEPASA "Ave Maria"
+2519	2ª classe FEPASA "Ave Maria"
+2497	bagageiro antigo EFS
+2480	bagageiro aço-C RFFSA BHTE
+2444	Pullman CPEF
+2444	Pullman CPEF
+2318	reboque CPTM
+2318	reboque CPTM
+2318	reboque CPTM
+2316	reboque CPTM SIEMENS
+2316	reboque CPTM SIEMENS
+2502	restaurante inox RFFSA
+2443	restaurante CPEF
+2520	restaurante FEPASA "Ave Maria"
+2440	correio/bagagem CPEF
+2440	correio/bagagem CPEF
+3074	AC44i ALL
+3077	AC44i Brado
+3075	AC44i VLi
+3075	AC44i VLi
+3014	G12 CVRD
+3087	RSC-3 CIMINAS
+3083	RSC-3 CPEF
+3083	RSC-3 CPEF
+3084	RSC-3 FEPASA
+3036	U20C VLI
+3037	U5B RFFSA
+3050	V8 CPEF
+3059	V8 FEPASA (fase III)
+2017	vagão fechado RFFSA
+2091	gôndola GDE Vale
+2091	gôndola GDE Vale
+2091	gôndola GDE Vale
+2091	gôndola GDE Vale
+2091	gôndola GDE Vale
+2101	gôndola GHS MRS
+2101	gôndola GHS MRS
+2101	gôndola GHS MRS
+2100	gôndola GHS RFFSA
+2100	gôndola GHS RFFSA
+2020	gôndola minério Cosipa
+2020	gôndola minério Cosipa
+2020	gôndola minério Cosipa
+2020	gôndola minério Cosipa
+2025	gôndola RFFSA
+2025	gôndola RFFSA
+2025	gôndola RFFSA
+2046	hopper fechado FEPASA
+2048	hopper fechado RFFSA
+2048	hopper fechado RFFSA
+2016	isotérmico EFCB
+2016	isotérmico EFCB
+2016	isotérmico EFCB
+2015	isotérmico RFFSA
+2400	limpa trilhos Frateschi
+2000K	plataforma CMEF
+2083	plataforma MRS
+2033	plataforma RFFSA
+2033	plataforma RFFSA
+2112	PRT Brado
+2112	PRT Brado
+2112	PRT Brado
+2112	PRT Brado
+2112	PRT Brado
+2112	PRT Brado
+2112	PRT Brado
+2112	PRT Brado
+2112	PRT Brado
+2106	sliding door FEPASA
+2106	sliding door FEPASA
+2028	tanque amônia Nitrofértil
+2028	tanque amônia Nitrofértil
+2028	tanque amônia Nitrofértil
+2045	tanque cimento CIMINAS
+2045	tanque cimento CIMINAS
+2045	tanque cimento CIMINAS
+2045	tanque cimento CIMINAS
+2045	tanque cimento CIMINAS
+2045	tanque cimento CIMINAS
+2037	tanque PETROBRAS
+2037	tanque PETROBRAS
+2037	tanque PETROBRAS
+2037	tanque PETROBRAS
+2076	tanque TCD preto RFFSA
+2076	tanque TCD preto RFFSA
+2076	tanque TCD preto RFFSA
+2076	tanque TCD preto RFFSA
+2076	tanque TCD preto RFFSA
+2071	tanque TCD VLi
+2071	tanque TCD VLi
+2071	tanque TCD VLi
+2099	tanque TNS MRS
+2069	tanque TSD FEPASA
+2069	tanque TSD FEPASA
