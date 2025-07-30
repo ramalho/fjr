@@ -59,6 +59,7 @@ def speed(dt):
 
 def wait_until_ready(sensors):
     # wait until lasers illuminate both sensors
+    display.show('?')
     while any(s.dark() for s in sensors):
         sleep(50)
 
@@ -107,7 +108,6 @@ def show_bar(side, percent):
 
 
 def calibrate(sensors):
-    # display.scroll('calibrate', delay=SCROLL_DELAY)
     display.clear()
     while not button_b.was_pressed():
         light0 = pin0.read_analog()
@@ -126,7 +126,6 @@ def main():
     while not button_b.was_pressed():
         sleep(10)
     calibrate(sensors)
-    display.scroll('align lasers', delay=SCROLL_DELAY, wait=False)
     wait_until_ready(sensors)
     display.show(READY_SYMBOL)
     measure(sensors)
