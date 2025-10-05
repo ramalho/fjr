@@ -1,0 +1,69 @@
+C	2316	reboque CPTM SIEMENS	2	R$ 59,35
+C	2318	reboque CPTM	3	R$ 55,99
+C	2440	correio/bagagem CPEF	1	R$ 55,99
+C	2440	correio/bagagem CPEF	1	R$ 55,99
+C	2441	1ª classe CPEF	1	R$ 55,99
+C	2442	2ª classe CPEF	1	R$ 55,99
+C	2443	restaurante CPEF	1	R$ 55,99
+C	2444	Pullman CPEF	2	R$ 55,99
+C	2480	bagageiro aço-C RFFSA BHTE	1	R$ 55,99
+C	2481	1ª classe aço-C RFFSA BHTE	1	R$ 55,99
+C	2482	2ª classe aço-C RFFSA BHTE	4	R$ 55,99
+C	2497	bagageiro antigo EFS	1	R$ 55,99
+C	2498	1ª classe antigo EFS	1	R$ 55,99
+C	2499	2ª classe antigo EFS	2	R$ 55,99
+C	2502	restaurante inox RFFSA	1	R$ 55,99
+C	2517	bagagem FEPASA "Ave Maria"
+C	2518	1ª classe FEPASA "Ave Maria"
+C	2519	2ª classe FEPASA "Ave Maria"	3	R$ 55,99
+C	2520	restaurante FEPASA "Ave Maria"	1	R$ 55,99
+L	3002	G12 FEPASA	1	R$ 234,66
+L	3004	G22U RFFSA
+L	3014	G12 CVRD	1	R$ 234,66
+L	3036	U20C VLI	1	R$ 234,66
+L	3037	U5B RFFSA	1	R$ 221,38
+L	3039	U5B MRS	1	R$ 221,38
+L	3050	V8 CPEF	1	R$ 354,99
+L	3059	V8 FEPASA (fase III)	1	R$ 376,29
+L	3070	GE5200 "Vandeca" CPEF
+L	3074	AC44i ALL	1	R$ 437,77
+L	3075	AC44i VLi	2	R$ 437,77
+L	3077	AC44i Brado	1	R$ 412,99
+L	3083	RSC-3 CPEF	1	R$ 492,76
+L	3083	RSC-3 CPEF	1	R$ 492,76
+L	3084	RSC-3 FEPASA	1	R$ 492,76
+L	3086	RS-3 CPTM BRANCA
+L	3087	RSC-3 CIMINAS	1	R$ 492,76
+V	2000K	plataforma CMEF	1	R$ 36,57
+V	2015	isotérmico RFFSA	1	R$ 52,22
+V	2016	isotérmico EFCB	1	R$ 55,35
+V	2016	isotérmico EFCB	2	R$ 55,35
+V	2017	fechado RFFSA	1	R$ 55,35
+V	2020	gôndola minério Cosipa	4	R$ 55,35
+V	2025	gôndola RFFSA	1	R$ 52,22
+V	2025	gôndola RFFSA	2	R$ 55,35
+V	2028	tanque amônia Nitrofértil	3	R$ 58,21
+V	2033	plataforma RFFSA	1	R$ 50,06
+V	2033	plataforma RFFSA	1	R$ 55,35
+V	2037	tanque PETROBRAS	4	R$ 58,21
+V	2045	tanque cimento CIMINAS	1	R$ 49,26
+V	2045	tanque cimento CIMINAS	5	R$ 52,22
+V	2046	hopper fechado FEPASA	1	R$ 55,35
+V	2048	hopper fechado RFFSA	2	R$ 55,35
+V	2069	tanque TSD FEPASA	2	R$ 58,21
+V	2071	tanque TCD VLi	3	R$ 58,21
+V	2075	porta container CVRD
+V	2076	tanque TCD preto RFFSA	1	R$ 54,36
+V	2076	tanque TCD preto RFFSA	4	R$ 58,21
+V	2083	plataforma MRS	1	R$ 55,35
+V	2091	gôndola GDE Vale	5	R$ 58,21
+V	2092	hopper aberto HAT MRS
+V	2099	tanque TNS MRS	1	R$ 54,36
+V	2100	gôndola GHS RFFSA	2	R$ 58,21
+V	2101	gôndola GHS MRS	3	R$ 58,21
+V	2106	sliding door FEPASA	2	R$ 66,46
+V	2108	sliding door ALL
+V	2112	PRT Brado	4	R$ 66,99
+V	2112	PRT Brado	5	R$ 62,70
+V	2120	lonado FTT Bracell
+V	2400	limpa trilhos Frateschi	1	R$ 50,06

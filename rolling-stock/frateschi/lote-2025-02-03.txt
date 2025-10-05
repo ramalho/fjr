@@ -1,0 +1,37 @@
+code	descr
+2075	porta container CVRD
+2075	porta container CVRD
+3059	V8 FEPASA (fase III)
+2517	bagagem FEPASA "Ave Maria"
+2518	1ª classe FEPASA "Ave Maria"
+2518	1ª classe FEPASA "Ave Maria"
+2518	1ª classe FEPASA "Ave Maria"
+2120	lonado FTT Bracell
+2120	lonado FTT Bracell
+2120	lonado FTT Bracell
+2120	lonado FTT Bracell
+3086	RS-3 CPTM BRANCA
+3036	U20C VLI
+3036	U20C VLI
+3074	AC44i ALL
+3087	RSC-3 CIMINAS
+2046	hopper fechado FEPASA
+2046	hopper fechado FEPASA
+2108	sliding door ALL
+2108	sliding door ALL
+2108	sliding door ALL
+2108	sliding door ALL
+2108	sliding door ALL
+3074	AC44i ALL
+3037	U5B RFFSA
+3039	U5B MRS
+3086	RS-3 CPTM BRANCA
+2092	hopper aberto HAT MRS 
+2092	hopper aberto HAT MRS 
+2092	hopper aberto HAT MRS 
+2092	hopper aberto HAT MRS 
+2092	hopper aberto HAT MRS 
+2092	hopper aberto HAT MRS 
+3002	G12 FEPASA
+3004	G22U RFFSA
+3070	GE5200 "Vandeca" CPEF
