@@ -4,9 +4,10 @@ Inclui automotoras e [trens unidade múltipla](https://pt.wikipedia.org/wiki/Tre
 
 |      | Fabricante | Modelo | Adquirida | DCC ID | Protótipo |
 | ---: | :---       | :---   | :---      | ---:   | :---      |
-|    1 | Pixo       | 52087  | 2024      | 7      | Desiro DMU, NCTD Sprinter |
-|    2 | Rapido     | 41501  | 2024      | 40     | EMD GP9RM, CN |
-|    3 | Piko       | 97457  | 2024      | 43     | Krauss Maffei ML4000, Rio Grande |
+|    1 | Piko       | 52087  | 2024-11   | 7      | Desiro DMU, NCTD Sprinter |
+|    2 | Rapido     | 41501  | 2024-07   | 40     | EMD GP9RM, CN |
+|    3 | Piko       | 97457  | 2024-12   | 43     | Krauss Maffei ML4000, Rio Grande |
 |    4 | Trix       | 22624  | 2024-05   | 46     | Elektrolokomotive Reihe 460, SBB |
 |    5 | Roco       | 72947  | 2024      | 47     | Diesel class T 478.3, CSD |
-|    6 | Trix       | 22458  | 2025-11   | 119    | Güterzug-Dampflokomotive Reihe G 12, Württemberg (W.St.E.) |
+|    6 | Roco       | 70617  | 2025-12   | 65     | Electric locomotive CC 6520, SNCF |
+|    7 | Trix       | 22458  | 2025-11   | 119    | Güterzug-Dampflokomotive Reihe G 12, Württemberg (W.St.E.) |
