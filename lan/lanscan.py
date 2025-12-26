@@ -7,7 +7,6 @@ Discovers active devices on a Class C network and resolves their hostnames.
 import socket
 import subprocess
 import sys
-import threading
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import ipaddress
@@ -27,7 +26,9 @@ def get_local_network():
         return str(network.network_address)[:-1]  # Remove last digit
     except Exception as e:
         print(f"Error detecting local network: {e}")
-        return "192.168.1."  # Default fallback
+        default = "192.168.1."
+        print("\tReturning default:", default)
+        return default
 
 def ping_host(ip):
     """Ping a single host to check if it's alive."""
@@ -107,7 +108,7 @@ def scan_host(ip):
         return (ip, hostname)
     return None
 
-def scan_network(network_base="auto", max_workers=50):
+def scan_network(network_base="auto", max_workers=256):
     """
     Scan a Class C network for active devices.
     
@@ -120,7 +121,7 @@ def scan_network(network_base="auto", max_workers=50):
         network_base = get_local_network()
     
     print(f"Scanning network {network_base}0/24...")
-    print("This may take a few moments...\n")
+    print("This may take a few moments...")
     
     active_hosts = []
     
@@ -135,14 +136,12 @@ def scan_network(network_base="auto", max_workers=50):
         # Collect results as they complete
         completed = 0
         for future in as_completed(future_to_ip):
-            completed += 1
-            if completed % 50 == 0:  # Progress indicator
-                print(f"Progress: {completed}/254 hosts checked...")
-            
+            print(".", end="", flush="True")
             result = future.result()
             if result:
                 active_hosts.append(result)
     
+        print()
     return active_hosts
 
 def print_results(active_hosts):
