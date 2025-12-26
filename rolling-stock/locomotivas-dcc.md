@@ -1,6 +1,6 @@
 # Locomotivas DCC
 
-Inclui automotoras e [trens unidade múltipla](https://pt.wikipedia.org/wiki/Trem-unidade_el%C3%A9trico)
+Inclui [trens unidade múltipla](https://pt.wikipedia.org/wiki/Trem-unidade_el%C3%A9trico)
 
 |      | DCC ID | Fabricante | Modelo | Adquirida | Protótipo |
 | ---: | ---:   | :---       | :---   | :---      | :---      |
