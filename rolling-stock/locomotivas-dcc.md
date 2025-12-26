@@ -4,7 +4,7 @@ Inclui [trens unidade múltipla](https://pt.wikipedia.org/wiki/Trem-unidade_el%C
 
 |      | DCC ID | Fabricante | Modelo | Adquirida | Protótipo |
 | ---: | ---:   | :---       | :---   | :---      | :---      |
-|    1 | 7      | Piko       | 52087  | 2024-11   | Desiro DMU, NCTD Sprinter |
+|    1 | 7      | Piko       | [52087](https://www.piko-shop.de/en/artikel/~br-642-desiro-diesel-railcar-db-ag-v;-neutral-27448.html)  | 2024-11   | Desiro DMU, NCTD Sprinter |
 |    2 | 40     | Rapido     | [41501](https://rapidotrains.com/ho-gp9rm-dc-dcc-sound-cn-stripes-4000.html)  | 2024-07   | EMD GP9RM, CN |
 |    3 | 43     | Piko       | 97457  | 2024-12   | Krauss Maffei ML4000, Rio Grande |
 |    4 | 46     | Trix       | 22624  | 2024-05   | Elektrolokomotive Reihe 460, SBB |
